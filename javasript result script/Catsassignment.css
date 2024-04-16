@@ -1,0 +1,121 @@
+*{ 
+    margin: 0;
+
+}
+
+header{
+    background: rgb(17,153,142);
+    background: linear-gradient(78deg, rgba(17,153,142,1) 33%, rgba(56,239,125,1) 63%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    /* background-color: #11998E #38EF7D; */
+}
+.who{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ text-align: center;
+padding-top: 15vh;
+color: rgb(5, 5, 82);
+}
+
+.lets{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 2vh;
+    color: rgb(5, 5, 82);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 20px;
+
+}
+
+.box1{
+    height: 90vh;
+    background-image: url(amber-kipp-75715CVEJhI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid  rgb(5, 5, 82); 
+    border-style: dotted;
+    
+}
+
+.box2{
+    border: 1px solid  rgb(5, 5, 82);
+    border-style: dotted;
+    text-align: center;
+    padding-top: 40vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(5, 5, 82);
+    background: rgb(161,255,206);
+    background: linear-gradient(78deg, rgba(161,255,206,1) 3%, rgba(250,255,209,1) 63%);
+
+}
+h5{
+    padding-inline: 90px;
+}
+.box3{
+    
+    border: 1px solid  rgb(5, 5, 82); 
+    border-style: dotted;
+    background: rgb(161,255,206);
+    background: linear-gradient(78deg, rgba(161,255,206,1) 3%, rgba(250,255,209,1) 63%);
+    text-align: center;
+    padding-top: 40vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(5, 5, 82);
+
+    
+}
+.box4{
+    height: 90vh;
+    background-image: url(alexander-london-mJaD10XeD7w-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid  rgb(5, 5, 82); 
+    border-style: dotted;
+}
+ 
+.footer { 
+    background-color:rgb(5, 5, 82);
+    color: white;
+    border: 2px solid green;
+    border-style: dotted;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height:35vh;
+}
+button{
+    width: 20vw;
+    height: 5vh;;
+    border-style: hidden;
+}
+button:hover{
+    color: green;
+    cursor: pointer;
+}
+.input{
+    color: rgb(5, 5, 82);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 5vh;
+    font-weight: bolder;
+    /* width: 90vw;
+    height: 10vh;
+     */
+}
+
+@media(width>=600) {
+    .box1{
+        
+    }
+}
